@@ -13,10 +13,10 @@ body {
 /* Main div that holds the calculator */
 .main-div {
   background-color: #34495e;
-  padding: 60px; /* Increased padding for larger size */
+  padding: 30px; /* Reduced padding for smaller size */
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(41, 32, 32, 0.2);
-  max-width: 600px; /* Increased max-width for a larger calculator */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 400px; /* Reduced max-width */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ body {
 }
 
 .heading h1 {
-  font-size: 36px; /* Increased heading size */
+  font-size: 25px; /* Slightly smaller heading size */
   color: white;
   margin: 0;
   font-weight: 600;
@@ -43,15 +43,15 @@ body {
   flex-direction: column;
   background-color: #2c3e50;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px; /* Reduced padding for smaller calculator */
   width: 100%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Display input styling */
 .display input {
-  font-size: 3em; /* Increased font size */
-  padding: 25px; /* Increased padding */
+  font-size: 2.0em; /* Reduced font size */
+  padding: 15px; /* Reduced padding */
   width: 100%;
   text-align: right;
   background-color: #34495e;
@@ -76,22 +76,21 @@ body {
 .button-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
-  gap: 20px; /* Increased gap between buttons */
-  width: 100%;
+  gap: 10px; /* Reduced gap between buttons */
   margin-top: 20px;
 }
 
 /* Button styles */
 button {
-  padding: 25px; /* Increased padding for larger buttons */
-  font-size: 1.8em; /* Increased font size */
+  padding: 15px; /* Reduced padding for smaller buttons */
+  font-size: 1.2em; /* Reduced font size */
   cursor: pointer;
   background-color: #2980b9;
   border: 1px solid #ccc;
   border-radius: 8px;
   color: #ffffff;
   transition: background-color 0.3s ease, transform 0.1s ease;
-  width: 100%; /* Make buttons take up 100% of their grid cell */
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -138,7 +137,7 @@ button:focus {
   background-color: #e74c3c; /* Red background */
   color: white;
   font-size: 1.5em;
-  padding: 20px;
+  padding: 15px; /* Reduced padding */
   border-radius: 8px;
   border: none;
   width: 100%;
